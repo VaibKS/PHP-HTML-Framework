@@ -64,7 +64,11 @@ class Element {
     }
 
     function html() {
-        $html = "<{$this->name}";
+        $html = "";
+        if($this->name == "html") {
+            $html .= "<!DOCTYPE HTML>";
+        }
+        $html .= "<{$this->name}";
 
         if(sizeof($this->attributes) > 0) {
             foreach($this->attributes as $prop => $val) {
