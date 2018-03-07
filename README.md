@@ -13,7 +13,7 @@ $header = new Element("header");
 
 > ### Note 
 > * This is a long shot, but I think this will be useful to generate Minified HTML, CSS and JavaScript without actually Minifying it.
-> * The following feature is being worked upon. Soon all the basic functionalities of web development have been developed. ;)
+> * The following feature will be under construction as soon all the basic functionalities of web development have been developed. ;)
 > * It will not only produce a unique name (id or class) for each element that has a style or event attached to it. This way, each time the files will be generated, the ID's and classes will be unique, maybe randomly generated numbers and letters can be used.
 
 ## 1. css(property, value)
